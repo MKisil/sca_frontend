@@ -15,6 +15,15 @@ This frontend can be connected to the [SCA Backend](https://github.com/MKisil/sc
 Follow the instructions in that repo to set up the backend server and enable API communication with this frontend.
 
 ### Getting Started
+Clone repo and go to project directory:
+
+```bash
+git clone https://github.com/MKisil/sca_frontend.git
+```
+
+```bash
+cd sca_frontend
+```
 
 Install the dependencies and run server:
 
