@@ -1,4 +1,4 @@
-# Next.js Frontend
+# Cats Spy Agency Test Task
 
 This is a Next.js project created with create-next-app.
 
