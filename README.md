@@ -2,19 +2,19 @@
 
 This is a Next.js project created with create-next-app.
 
-## Tech Stack
+### Tech Stack
 
 - Next.js
 - React
 - Tailwind CSS
 - shadcn/ui
 
-## Backend Integration
+### Backend Integration
 
 This frontend can be connected to the [SCA Backend](https://github.com/MKisil/sca_backend), which is built with FastAPI.  
 Follow the instructions in that repo to set up the backend server and enable API communication with this frontend.
 
-## Getting Started
+### Getting Started
 
 Install the dependencies and run server:
 
@@ -26,6 +26,6 @@ npm install
 npm run dev
 ```
 
-## See the result
+### See the result
 
 http://localhost:3000/
