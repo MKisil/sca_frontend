@@ -49,8 +49,8 @@ export default function Home() {
     }
   };
 
-  if (error) return <div className="p-4 text-red-500">{error}</div>;
-  if (loading) return <div className="p-4">Loading...</div>;
+  if (error) toast("Failed to fetch cats");
+  if (loading) toast("Loading...");
 
   return (
     <div className="container mx-auto p-4">
