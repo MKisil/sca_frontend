@@ -32,7 +32,7 @@ const breedMapping = {
 const formSchema = z.object({
   name: z.string().min(2),
   breed: z.enum(["aege", "acur", "asho", "amau"]),
-  years_of_experience: z.coerce.number().min(0),
+  experience: z.coerce.number().min(0),
   salary: z.coerce.number().min(0),
 });
 
@@ -41,7 +41,7 @@ export default function AddCatForm({ onSuccess }: { onSuccess: () => void }) {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
-      years_of_experience: 0,
+      experience: 0,
       salary: 0,
     },
   });
@@ -103,7 +103,7 @@ export default function AddCatForm({ onSuccess }: { onSuccess: () => void }) {
           />
           <FormField
             control={form.control}
-            name="years_of_experience"
+            name="experience"
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Experience (years)</FormLabel>

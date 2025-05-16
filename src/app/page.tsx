@@ -76,7 +76,7 @@ export default function Home() {
                 {breedMapping[cat.breed as keyof typeof breedMapping]}
               </TableCell>
 
-              <TableCell>{cat.years_of_experience} years</TableCell>
+              <TableCell>{cat.experience} years</TableCell>
               <TableCell>${cat.salary}</TableCell>
               <TableCell className="flex gap-2">
                 <EditSalaryDialog cat={cat} onSuccess={fetchCats} />
